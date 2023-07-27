@@ -1,0 +1,22 @@
+{
+  "name": "yarn-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "repo1",
+    "repo2"
+  ],
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "scripts": {
+    "repo1": "yarn workspace repo1 test",
+    "repo2": "yarn workspace repo2 test"
+  },
+  "nohoish": [
+    "repo1",
+    "repo2"
+  ],
+  "license": "MIT"
+}

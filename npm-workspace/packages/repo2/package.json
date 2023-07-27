@@ -1,0 +1,16 @@
+{
+  "name": "@test/repo2",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "@test/repo1": "^1.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

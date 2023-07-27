@@ -1,0 +1,20 @@
+{
+  "name": "npm-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=16.17.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "repo1": "npm run build -w @test/repo1",
+    "repo2": "npm run test -w @test/repo2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

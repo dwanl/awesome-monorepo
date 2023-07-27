@@ -1,0 +1,21 @@
+{
+  "name": "pnpm-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "repo1": "pnpm --filter @test/repo1 test"
+  },
+  "keywords": [],
+  "author": "",
+  "engines": {
+    "node": ">=16.17.0",
+    "pnpm": ">=7.5.2"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}

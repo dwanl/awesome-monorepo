@@ -1,0 +1,14 @@
+{
+  "name": "repo1",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "repo2": "workspace:^"
+  }
+}

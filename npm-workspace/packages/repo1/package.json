@@ -1,0 +1,14 @@
+{
+  "name": "@test/repo1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts",
+    "ts-node": "npx ts-node --esm index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

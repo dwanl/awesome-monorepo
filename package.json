@@ -1,0 +1,21 @@
+{
+  "name": "awesome-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "yarn eslint . --ext .ts,.tsx,.js",
+    "prettier": "prettier --write --ignore-unknown .",
+    "prettier:ci": "prettier --check --ignore-unknown .",
+    "version-packages": "changeset version && yarn prettier",
+    "postinstall": "husky install"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "8.45.0",
+    "husky": "^8.0.0",
+    "prettier": "3.0.0",
+    "typescript": "^5.1.6"
+  }
+}
